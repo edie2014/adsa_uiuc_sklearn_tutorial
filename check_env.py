@@ -49,17 +49,19 @@ else:
 
 print()
 requirements = {'numpy': "1.6.1", 'scipy': "0.9", 'matplotlib': "1.0",
-                'IPython': "3.0", 'sklearn': "0.15"}
+                'IPython': "3.0", 'sklearn': "0.17", "pandas": "0.17"}
 
 # now the dependencies
 for lib, required_version in list(requirements.items()):
     import_version(lib, required_version)
 
-# pydot is a bit different
-import_version("pydot", "0", fail_msg="pydot is not installed. It is not required "
-               "but you will miss out on some plots. \nYou can install it using "
-               "'pip install pydot' on python2, and 'pip install "
-               "git+https://github.com/nlhepler/pydot.git' on python3.")
+# my tutorial doesn't use images
 
-import_version("Image", "0", fail_msg="The Image module is not installed."
-               " Please install the Pillow package, which provides it.")
+# pydot is a bit different
+#import_version("pydot", "0", fail_msg="pydot is not installed. It is not required "
+#               "but you will miss out on some plots. \nYou can install it using "
+#               "'pip install pydot' on python2, and 'pip install "
+#               "git+https://github.com/nlhepler/pydot.git' on python3.")
+#
+#import_version("Image", "0", fail_msg="The Image module is not installed."
+#               " Please install the Pillow package, which provides it.")
