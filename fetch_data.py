@@ -60,10 +60,13 @@ def check_sentiment140(datasets_folder):
 
 if __name__ == "__main__":
     datasets_folder = get_datasets_folder()
-    check_sentiment140(datasets_folder)
-
-    print("Loading Labeled Faces Data (~200MB)")
-    from sklearn.datasets import fetch_lfw_people
-    fetch_lfw_people(min_faces_per_person=70, resize=0.4,
-                     data_home=datasets_folder)
-    print("=> Success!")
+    #check_sentiment140(datasets_folder)
+    print("Loading 20newsgroups data")
+    from sklearn.datasets import fetch_20newsgroups
+    fetch_20newsgroups(subset='all')
+    ## Not using LFW in this tutorial.
+    #print("Loading Labeled Faces Data (~200MB)")
+    #from sklearn.datasets import fetch_lfw_people
+    #fetch_lfw_people(min_faces_per_person=70, resize=0.4,
+    #                 data_home=datasets_folder)
+    #print("=> Success!")
