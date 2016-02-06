@@ -24,12 +24,15 @@ If Python is installed, you should be able to see somethng like this:
 
     Python 2.7.11
 
-Otherwise you will see something else. If you don't have python try to install it via brew: 
+Otherwise you will see something else. IfIf you don't have python try to install:
+  - On OS X install it via brew (If you don't have brew, you can inatll it [here](http://brew.sh/) ): 
 
     brew install python 
 
+  - On Windows use the [installer](https://www.python.org/) from the official website.
+  - On Linux use the package manage of your distribution (e.g. `apt` for Ubuntu). 
+ 
 Both Python2.7 and 3.4 should both work fine for this tutorial.
-If you don't have brew, you can inatll it [here](http://brew.sh/). 
 
 This tutorial will require recent installations of *numpy*, *scipy*,
 *matplotlib*, *scikit-learn* and *ipython* with ipython
