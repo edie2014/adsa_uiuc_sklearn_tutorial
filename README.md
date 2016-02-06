@@ -24,7 +24,7 @@ If Python is installed, you should be able to see somethng like this:
 
     Python 2.7.11
 
-Otherwise you will see something else. IfIf you don't have python try to install:
+Otherwise you will see something else. If you don't have python try to install:
   - On OS X install it via brew (If you don't have brew, you can inatll it [here](http://brew.sh/) ): 
 
     brew install python 
@@ -47,7 +47,7 @@ Try opening and running a notebook from the material to see check that it works.
 If you don't have `ipython`, 
 you can install it through `pip`: 
 
-    pip instal ipython 
+    pip install ipython 
    
 For users who do not yet have these packages installed, a relatively
 painless way to install all the requirements is to use a package such as
@@ -57,7 +57,7 @@ downloaded and installed for free.
 After getting the material, you should run ``python check_env.py`` to verify
 your environment.
 
-If you are missing any package, use `pip` to instal them. For example to instal `numpy` we can do: 
+If you are missing any package, use `pip` to instal them. For example to instal' `numpy` we can do: 
 
     pip install numpy
 
@@ -67,7 +67,7 @@ I would highly recommend using git, not only for this tutorial, but for the
 general betterment of your life.  Once git is installed, you can clone the
 material in this tutorial by using the git address shown above:
 
-    git clone git://github.com/vene/asda_uiuc_sklearn_tutorial.git
+    git clone git://github.com/vene/adsa_uiuc_sklearn_tutorial.git
 
 If you can't or don't want to install git, there is a link above to download
 the contents of this repository as a zip file.  We may make minor changes to
@@ -83,8 +83,3 @@ learn, which includes code which automatically downloads and caches these
 data.  Because the wireless network at conferences can often be spotty, it
 would be a good idea to download these data sets before arriving at the
 conference. Run ``fetch_data.py`` to download all necessary data beforehand.
-
-Outline
-=======
-
-TODO
