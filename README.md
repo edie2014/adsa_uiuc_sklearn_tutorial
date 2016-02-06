@@ -16,6 +16,24 @@ Instructor
 Installation Notes
 ------------------
 
+First your need to make sure you have Python on your machine. In order to check it you can just type: 
+
+    python -V 
+    
+If Python is installed, you should be able to see somethng like this: 
+
+    Python 2.7.11
+
+Otherwise you will see something else. IfIf you don't have python try to install:
+  - On OS X install it via brew (If you don't have brew, you can inatll it [here](http://brew.sh/) ): 
+
+    brew install python 
+
+  - On Windows use the [installer](https://www.python.org/) from the official website.
+  - On Linux use the package manage of your distribution (e.g. `apt` for Ubuntu). 
+ 
+Both Python2.7 and 3.4 should both work fine for this tutorial.
+
 This tutorial will require recent installations of *numpy*, *scipy*,
 *matplotlib*, *scikit-learn* and *ipython* with ipython
 notebook.
@@ -24,17 +42,24 @@ The last one is important, you should be able to type:
 
     ipython notebook
 
-in your terminal window and see the notebook panel load in your web browser.
+in your terminal window and see the notebook panel load in your web browser. 
 Try opening and running a notebook from the material to see check that it works.
+If you don't have `ipython`, 
+you can install it through `pip`: 
 
-For users who do not yet have these  packages installed, a relatively
+    pip instal ipython 
+   
+For users who do not yet have these packages installed, a relatively
 painless way to install all the requirements is to use a package such as
 [Anaconda CE](http://store.continuum.io/ "Anaconda CE"), which can be
 downloaded and installed for free.
-Python2.7 and 3.4 should both work fine for this tutorial.
 
 After getting the material, you should run ``python check_env.py`` to verify
 your environment.
+
+If you are missing any package, use `pip` to instal them. For example to instal `numpy` we can do: 
+
+    pip install numpy
 
 Downloading the Tutorial Materials
 ----------------------------------
